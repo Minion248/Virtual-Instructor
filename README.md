@@ -85,15 +85,20 @@ EduGPT supports translation to the following languages:
 
 •	• Chinese
 
-💡 Future Enhancements
+---
 
-•	🔮 Virtual Reality (VR) Classroom Integration
+## 🧠 Technologies Used
 
-•	🔮 Embedding-based Personalized Learning
+| Component        | Tech Stack                        |
+|------------------|------------------------------------|
+| Frontend         | Gradio (Python UI)                 |
+| Backend LLM      | LangChain + OpenRouter             |
+| Knowledge Base   | AIML, Prolog, Neo4j (Graph DB)     |
+| Memory Types     | Semantic, Episodic, PAM, Social    |
+| Language Support | LangChain Multilingual modules     |
 
-•	🔮 Mobile App Deployment
+---
 
-•	🔮 LMS Platform Plug-in
 
  
  
