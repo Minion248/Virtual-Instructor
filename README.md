@@ -12,35 +12,50 @@ Virtual Instructor is an AI-powered educational assistant designed to help stude
 •	✅ Gradio Interface (User-friendly Tabs)
 •	✅ Modular and LMS-ready
 🔧 Project Setup
-1. Clone the Repository:
+1. Clone the Repository
+   
 git clone https://github.com/your-username/virtual- instructor.git
 cd virtual- instructor
-2. Create Virtual Environment:
+
+3. Create Virtual Environment:
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-3. Install Requirements:
+
+5. Install Requirements:
 pip install -r requirements.txt
+
 🔐 .env Configuration
 Before running the app, you must create a .env file in the root directory with your OpenRouter API key:
 OPENROUTER_API_KEY=your_openrouter_api_key_here
+
 🏁 How to Run
 python src/run.py
 This will start the Gradio app locally. Access it via your browser at:
 http://127.0.0.1:7860
-🗃️ Directory Structure
 
+## 📁 Directory Structure
+
+```
 Virtual-Instructor/
-├── .env
+├── .env.example
 ├── requirements.txt
+├── README.md
+├── run.py
 ├── src/
-│   ├── run.py
-│   ├── openrouter_llm.py
 │   ├── generating_syllabus.py
 │   ├── flashcard_generator.py
+│   ├── openrouter_llm.py
+│   ├── teaching_agent.py
 │   ├── multilingual_support.py
 │   ├── progress_tracker.py
-│   └── teaching_agent.py
-└── README.md
+│   └── ...
+├── data/
+│   ├── conversation.aiml
+│   └── ...
+├── pretrained_model/
+│   ├── learningFileList.aiml
+│   └── aiml_pretrained_model.dump
+```
 
 
 🌍 Supported Languages
