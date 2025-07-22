@@ -1,4 +1,6 @@
 Virtual Instructor
+
+
 Virtual Instructor is an AI-powered educational assistant designed to help students and teachers generate personalized study material. It serves as a virtual teaching companion, allowing users to generate syllabi, assignments, quizzes, flashcards, track progress, translate content, and interact with an AI tutor — all in one place. Built using LangChain, OpenRouter (GPT-3.5-turbo / Mistral), and Gradio for seamless interaction.
 📌 Features
 •	✅ Syllabus Generator
